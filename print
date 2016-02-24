@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="UTF-8" />
+      <title>San Francisco Rainfall</title>
+
+      <!-- Remember to edit the CSS so that your result looks similar
+      to expectedresult.png -->
+      <link rel="stylesheet" href="_css/main.css">
+
+      <script src="_js/jquery-1.11.0.min.js"></script>
+      <script src="_js/highcharts.js"></script>
+  </head>
+
+  <body>
+
+    <div id="wrapper">
+      <h1>Trying to print 1-100 n stuff</h1>
+
+    </div>
+
+    <script>
+
+    console.log("HI");
+    var num = 1;
+
+    console.log(num)
+    if (num < 100) {
+       console.log("oooooo")
+       num+=1;
+       console.log(num);
+
+       if (num/3 == 0) {
+         console.log("divis by 3")
+       }
+
+
+    } else {
+      console.log("nothing")
+    }
+
+
+
+
+    </script>
+
+  </body>
+
+</html>
